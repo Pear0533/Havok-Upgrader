@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hkoptions>
+	<hkobject class="hctConfigurationSetData">
+		<hkparam name="filterManagerVersion">65536</hkparam>
+		<hkparam name="activeConfiguration">0</hkparam>
+	</hkobject>
+	<hkobject class="hctConfigurationData">
+		<hkparam name="configurationName">Default</hkparam>
+		<hkparam name="numFilters">3</hkparam>
+	</hkobject>
+	<hkobject name="Create Bodies" class="hctFilterData">
+		<hkparam name="id">3018294382</hkparam>
+		<hkparam name="ver">1</hkparam>
+		<hkparam name="hasOptions">true</hkparam>
+	</hkobject>
+	<hkobject name="Create Bodies" class="hctNpCreateRigidBodiesOptions">
+		<hkparam name="defaultConvexRadius">0.000000</hkparam>
+		<hkparam name="featurePreservationFactor">0.000000</hkparam>
+		<hkparam name="maxVertices">255</hkparam>
+		<hkparam name="compoundShapeType">COMPOSITE_STATIC_COMPOUND</hkparam>
+		<hkparam name="createDestructionData">true</hkparam>
+	</hkobject>
+	<hkobject name="Create Constraints" class="hctFilterData">
+		<hkparam name="id">3303511423</hkparam>
+		<hkparam name="ver">1</hkparam>
+		<hkparam name="hasOptions">true</hkparam>
+	</hkobject>
+	<hkobject name="Create Constraints (Physics 2013)" class="hctNpCreateConstraintsOptions">
+	</hkobject>
+	<hkobject name="Create World" class="hctFilterData">
+		<hkparam name="id">3018273878</hkparam>
+		<hkparam name="ver">1</hkparam>
+		<hkparam name="hasOptions">true</hkparam>
+	</hkobject>
+	<hkobject name="Create World" class="hctNpCreateWorldOptions">
+		<hkparam name="npWorldCinfo">
+			<hkobject>
+				<hkparam name="bodyBufferCapacity">4096</hkparam>
+				<!-- userBodyBuffer SERIALIZE_IGNORED -->
+				<hkparam name="motionBufferCapacity">4096</hkparam>
+				<!-- userMotionBuffer SERIALIZE_IGNORED -->
+				<hkparam name="materialLibrary">null</hkparam>
+				<hkparam name="motionPropertiesLibrary">null</hkparam>
+				<hkparam name="qualityLibrary">null</hkparam>
+				<!-- persistentStreamAllocator SERIALIZE_IGNORED -->
+				<hkparam name="broadPhaseAabb">
+					<hkobject>
+						<hkparam name="min">(-1000.000000 -1000.000000 -1000.000000 0.000000)</hkparam>
+						<hkparam name="max">(1000.000000 1000.000000 1000.000000 0.000000)</hkparam>
+					</hkobject>
+				</hkparam>
+				<hkparam name="leavingBroadPhaseBehavior">ON_LEAVING_BROAD_PHASE_FREEZE_BODY</hkparam>
+				<hkparam name="broadPhaseConfig">null</hkparam>
+				<!-- collisionFilter SERIALIZE_IGNORED -->
+				<!-- collisionQueryFilter SERIALIZE_IGNORED -->
+				<!-- shapeTagCodec SERIALIZE_IGNORED -->
+				<hkparam name="collisionTolerance">0.050000</hkparam>
+				<hkparam name="relativeCollisionAccuracy">0.005000</hkparam>
+				<hkparam name="gravity">(0.000000 0.000000 -9.810000 0.000000)</hkparam>
+				<hkparam name="solverIterations">4</hkparam>
+				<hkparam name="solverTau">0.600000</hkparam>
+				<hkparam name="solverDamp">1.000000</hkparam>
+				<hkparam name="solverMicrosteps">1</hkparam>
+				<hkparam name="defaultSolverTimestep">0.033333</hkparam>
+				<hkparam name="maxApproachSpeedForHighQualitySolver">1.000000</hkparam>
+				<hkparam name="enableSolverDynamicScheduling">false</hkparam>
+				<hkparam name="enableDeactivation">true</hkparam>
+				<hkparam name="largeIslandSize">100</hkparam>
+				<hkparam name="simulationType">SIMULATION_TYPE_MULTI_THREADED</hkparam>
+				<hkparam name="numSplitterCells">16</hkparam>
+				<hkparam name="mergeEventsBeforeDispatch">true</hkparam>
+				<hkparam name="unitScale">1.000000</hkparam>
+			</hkobject>
+		</hkparam>
+		<hkparam name="solverType">5</hkparam>
+		<hkparam name="collisionFilterType">COLLISION_OPTIONS_CONSTRAINT_FILTER</hkparam>
+		<hkparam name="autoGroupRBS">false</hkparam>
+		<hkparam name="autoGroupRBLayer">2</hkparam>
+		<hkparam name="groupFilterLayerTable">4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295 4294967295</hkparam>
+	</hkobject>
+</hkoptions>
